@@ -3,7 +3,7 @@
 #include "Gradient.h"
 
 Gradient::Gradient(std::string w, std::string h, std::string c1, std::string c2) {
-	filename = "Output/" + c1 + "_to_" + c2 + "_" + w + "x" + h + ".bmp";
+	filename = c1 + "_to_" + c2 + "_" + w + "x" + h + ".bmp";
 	width = std::stoi(w);
 	height = std::stoi(h);
 	color1 = std::stoi(c1, 0, 16);
